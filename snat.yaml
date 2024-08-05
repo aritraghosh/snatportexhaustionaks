@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: snat-test
-        image: <acr registry>.azurecr.io/snattest:latest
+        image: <acr registry>.azurecr.io/snat-test:latest
         resources:
           requests:
             memory: "64Mi"
